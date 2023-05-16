@@ -17,7 +17,12 @@ function App() {
         >
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
+        <a
+          className="flex justify-center"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
